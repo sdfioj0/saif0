@@ -11427,7 +11427,7 @@
     {
       "isCustom": true,
       "id": "VNXX GAMING",
-      "img": "vnxx.png",
+      "img": "https://wormup.in/images/group/wormate-play.png",
       "name": {
         "en": "VNXX GAMING"
       },
@@ -13444,7 +13444,7 @@
     },
     "abufaris_09": {
       "custom": true,
-      "relativePath": "https://i.imgur.com/Dmcecwl.png"
+      "relativePath": "https://i.imgur.com/zYJ3L5Z.png"
     },
     "abufaris_10": {
       "custom": true,
