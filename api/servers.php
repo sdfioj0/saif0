@@ -260,14 +260,14 @@
    
 {
         "id": 606,
-        "name": "07. JAPAN SERVER<img class='team' src='https://i.imgur.com/8BpyjOn.png'/>",
+        "name": "07. اليابان<img class='team' src='https://i.imgur.com/8BpyjOn.png'/>",
         "region": "japon",
         "serverUrl": "wss://tok-b.wormate.io:31091/wormy",
         "status": 1
     },
 {
         "id": 605,
-        "name": "06. JAPAN SERVER<img class='team' src='https://i.imgur.com/8BpyjOn.png'/>",
+        "name": "06. اليابان<img class='team' src='https://i.imgur.com/8BpyjOn.png'/>",
         "region": "japon",
         "serverUrl": "wss://tok-b.wormate.io:30725/wormy",
         "status": 1
@@ -275,35 +275,35 @@
     
     {
         "id": 604,
-        "name": "05. JAPAN SERVER<img class='team' src='https://i.imgur.com/8BpyjOn.png'/>",
+        "name": "05. اليابان<img class='team' src='https://i.imgur.com/8BpyjOn.png'/>",
         "region": "japon",
         "serverUrl": "wss://tok-b.wormate.io:30161/wormy",
         "status": 1
     },
     {
         "id": 603,
-        "name": "04. JAPAN SERVER<img class='team' src='https://i.imgur.com/8BpyjOn.png'/>",
+        "name": "04. اليابان<img class='team' src='https://i.imgur.com/8BpyjOn.png'/>",
         "region": "japon",
         "serverUrl": "wss://tok-b.wormate.io:32499/wormy",
         "status": 1
     },
     {
         "id": 602,
-        "name": "03. JAPAN SERVER<img class='team' src='https://i.imgur.com/8BpyjOn.png'/>",
+        "name": "03. اليابان<img class='team' src='https://i.imgur.com/8BpyjOn.png'/>",
         "region": "japon",
         "serverUrl": "wss://tok-b.wormate.io:30786/wormy",
         "status": 1
     },
     {
         "id": 601,
-        "name": "02. JAPAN SERVER<img class='team' src='https://i.imgur.com/8BpyjOn.png'/>",
+        "name": "02. اليابان<img class='team' src='https://i.imgur.com/8BpyjOn.png'/>",
         "region": "japon",
         "serverUrl": "wss://tok-b.wormate.io:31770/wormy",
         "status": 1
     },
     {
         "id": 600,
-        "name": "01. JAPAN SERVER<img class='team' src='https://i.imgur.com/8BpyjOn.png'/>",
+        "name": "01. اليابان<img class='team' src='https://i.imgur.com/8BpyjOn.png'/>",
         "region": "japon",
         "serverUrl": "wss://tok-b.wormate.io:30171/wormy",
         "status": 1
