@@ -4666,7 +4666,7 @@
     {
       "id": 340000,
       "guest": true,
-      "nonbuyable": true,
+      "nonbuyable": false,
       "price": 0,
       "priceBefore": 0,
       "prime": "c__yllw",
@@ -8646,7 +8646,7 @@
     {
       "id": 2802,
       "guest": false,
-      "nonbuyable": true,
+      "nonbuyable": false,
       "price": 0,
       "priceBefore": 0,
       "prime": "c__yllw",
@@ -8656,7 +8656,7 @@
     {
       "id": 2803,
       "guest": false,
-      "nonbuyable": true,
+      "nonbuyable": false,
       "price": 0,
       "priceBefore": 0,
       "prime": "c__yllw",
@@ -8666,7 +8666,7 @@
     {
       "id": 2804,
       "guest": false,
-      "nonbuyable": true,
+      "nonbuyable": false,
       "price": 0,
       "priceBefore": 0,
       "prime": "c__yllw",
@@ -8686,7 +8686,7 @@
     {
       "id": 2806,
       "guest": false,
-      "nonbuyable": true,
+      "nonbuyable": false,
       "price": 0,
       "priceBefore": 0,
       "prime": "c__yllw",
@@ -8696,7 +8696,7 @@
     {
       "id": 2807,
       "guest": false,
-      "nonbuyable": true,
+      "nonbuyable": false,
       "price": 0,
       "priceBefore": 0,
       "prime": "c_white",
@@ -8706,7 +8706,7 @@
     {
       "id": 2808,
       "guest": false,
-      "nonbuyable": true,
+      "nonbuyable": false,
       "price": 0,
       "priceBefore": 0,
       "prime": "c__yllw",
@@ -8726,7 +8726,7 @@
     {
       "id": 2810,
       "guest": false,
-      "nonbuyable": true,
+      "nonbuyable": false,
       "price": 0,
       "priceBefore": 0,
       "prime": "c__yllw",
@@ -8736,7 +8736,7 @@
     {
       "id": 2811,
       "guest": false,
-      "nonbuyable": true,
+      "nonbuyable": false,
       "price": 0,
       "priceBefore": 0,
       "prime": "c__yllw",
@@ -8756,7 +8756,7 @@
     {
       "id": 2813,
       "guest": false,
-      "nonbuyable": true,
+      "nonbuyable": false,
       "price": 0,
       "priceBefore": 0,
       "prime": "c__yllw",
