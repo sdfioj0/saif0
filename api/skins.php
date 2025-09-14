@@ -5,7 +5,7 @@ header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Ac
 header("Content-Type: application/json; charset=UTF-8");
 
 try {
-    $url = 'https://sdfioj0.github.io/saif0/api/skins.json';
+    $file = 'api/skins.json';
     $json = file_get_contents($url);
     
     if ($json === false) {
