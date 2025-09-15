@@ -1470,9 +1470,9 @@
 },
 {
   "id": 1,
-  "name": "01.  Ziad UP<img class='team' src='https://i.imgur.com/HycJY66.png'/><div id='online'></div>",
+  "name": "01. SAIF<img class='team' src='https://i.imgur.com/HycJY66.png'/><div id='online'></div>",
   "region": "peru",
-  "serverUrl": "wss://fra-c.wormate.io:30055/wormy",
+  "serverUrl": "wss://fra-c.wormate.io:32053/wormy",
   "status": 1
 }
     
