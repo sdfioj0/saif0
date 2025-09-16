@@ -15931,7 +15931,7 @@
     {
       "isCustom": true,
       "id": "HPBD",
-      "img": "hpd.png",
+      "img": "https://i.imgur.com/9aMkD79.png",
       "name": {
         "en": "HPBD"
       },
@@ -47953,6 +47953,7 @@
     }
   }
 }
+
 
 
 
