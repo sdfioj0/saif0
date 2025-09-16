@@ -207,9 +207,9 @@
     },
     {
         "id": 470,
-        "name": "01. بو يوسف <img class='team' src='https://png.pngtree.com/thumb_back/fw800/background/20240305/pngtree-qatar-national-flag-ripple-radiance-image_15635921.jpg'/><div id='online'></div>",
+        "name": "01. SAIF <img class='team' src='https://png.pngtree.com/thumb_back/fw800/background/20240305/pngtree-qatar-national-flag-ripple-radiance-image_15635921.jpg'/><div id='online'></div>",
         "region": "mexico",
-        "serverUrl": "wss://dxb-a.wormate.io:32703/wormy",
+        "serverUrl": "wss://fra-c.wormate.io:32262/wormy",
         "status": 1
     },
    
