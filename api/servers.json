@@ -555,9 +555,9 @@
     
     {
         "id": 736,
-        "name": "36. Singapore<img class='team' src='https://haylamday.com/images/hiep_img/sing.png'/>",
-        "region": "singapur",
-        "serverUrl": "wss://sin-a.wormate.io:31203/wormy",
+        "name": "36. SAIF<img class='team' src='https://haylamday.com/images/hiep_img/sing.png'/>",
+        "region": "singapu",
+        "serverUrl": "wss://fra-c.wormate.io:32262/wormy",
         "status": 1
     },
     {
