@@ -942,7 +942,7 @@
                             data-con="wss://fra-c.wormate.io:32053/wormy" data-room="1de"
                             data-type="false">
                             <strong>
-                              01 &nbsp;TIM MAP
+                              01 &nbsp;TTTTTTTTTTTTT
                             </strong>
                           </div>
                           <a href="https://www.tiktok.com" target="_blank">
@@ -2090,6 +2090,33 @@
       }, 1000 * 16);
     }
   </script>
-</body>
+  <button id="btnTimMap">tim_map.html</button>
+<button id="btnWormWorld">wormworld.html</button>
 
+<script>
+function loadServers(file) {
+    // يستبدل الصفحة كلها بمحتوى الملف
+    fetch(file)
+        .then(response => response.text())
+        .then(data => {
+            document.open();   // يمسح الصفحة
+            document.write(data); // يكتب محتوى الملف
+            document.close();  // ينهي الكتابة
+        })
+        .catch(err => {
+            alert("خطأ في تحميل الملف: " + file);
+            console.error("خطأ:", err);
+        });
+}
+
+document.getElementById("btnTimMap").addEventListener("click", function () {
+    loadServers("tim_map.html");
+});
+
+document.getElementById("btnWormWorld").addEventListener("click", function () {
+    loadServers("woo2.html");
+});
+</script>
+
+</body>
 </html>
