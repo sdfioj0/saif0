@@ -205,34 +205,88 @@
     background-position: -92px -92px;
   }
   /* التعديل الجديد للزر الرمادي */
-  .gray-button {
-    background-color: #808080;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    border-radius: 5px;
-    font-weight: bold;
-    font-size: 16px;
-    margin: 5px;
-  }
-  
-  /* زر "worm world" يكون مخفيًا في البداية */
-  .worm-world-button {
-    background-color: #ff9900;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
-    display: none; /* هذا السطر هو الذي يجعل الزر مخفياً */
-    cursor: pointer;
-    border-radius: 5px;
-    font-weight: bold;
-    font-size: 16px;
-    margin: 5px;
-  }
+.gray-button {
+  background-color: #808080;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 5px;
+}
+
+#worm-world-button {
+  display: none; /* هذا يجعل الزر مخفيًا في البداية */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 10px; /* تم تعديل القيمة لرفع الزر للأعلى */
+  left: 50%;
+  transform: translateX(-50%);
+}
+.top-button-container {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 10px; /* يمكنك تعديل هذه القيمة لرفع الزر أكثر */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.gray-button {
+  background-color: #808080;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 5px;
+}
+.empty-rectangle {
+  width: 150px; /* يمكنك تعديل العرض */
+  height: 20px; /* يمكنك تعديل الارتفاع */
+  background-color: white; /* لون المستطيل الأبيض */
+  border: 1px solid #ddd; /* إطار خفيف لرؤيته */
+  margin-bottom: 10px; /* لإضافة مسافة بينه وبين الزر */
+}
+.top-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 23px; /* يمكنك تعديل الارتفاع حسب الحاجة */
+  background-color: #80807d28; /* لون المستطيل */
+  border-bottom: 1px solid #dddddd00;
+}
+
+.gray-button {
+  background-color: #5c5454a2;
+  color: white;
+  padding: 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 5px;
+}
 </style>
     <script>$(document).ready(function(){
     $("#team-map-button").click(function(){
@@ -245,15 +299,9 @@
   <div class="title-worm-world-connect" style="position: absolute; top: 0; z-index: 1; width: 92%">
     <img src="https://i.imgur.com/Udme91r.png" width="20" alt="" />
     SAIF WORLD
-  </div>
+<div class="top-container">
+  <a href="tim_map.html" class="gray-button">تيم ماب</a>
 </div>
-<div class="angry-grid f32">
-  <a href="#" id="team-map-button" class="gray-button">تيم ماب</a>
-  </div>
-<a href="#" id="worm-world-button" class="worm-world-button">worm world</a>
-
-  
-
         
         <div style="height: 285px; overflow: auto; border: 1px solid; margin: 6px auto" id="wwc_tabs">
           <div class="angry-grid f32">
@@ -2256,6 +2304,28 @@
       });
     </script>
     <script>
+        $(document).ready(function(){
+  // عند النقر على زر "تيم ماب"
+  $("#team-map-button").click(function(event){
+    event.preventDefault(); // لمنع الانتقال المباشر للصفحة
+    
+    // إخفاء زر "تيم ماب" وإظهار زر "worm world"
+    $(this).hide();
+    $("#worm-world-button").show();
+    
+    // تحميل ملف tim_map.html بعد التبديل
+    window.location.href = 'tim_map.html';
+  });
+
+  // عند النقر على زر "worm world"
+  $("#worm-world-button").click(function(event){
+    event.preventDefault(); // لمنع أي سلوك افتراضي
+    
+    // إخفاء زر "worm world" وإظهار زر "تيم ماب"
+    $(this).hide();
+    $("#team-map-button").show();
+  });
+});
       $(function () {
         $('a[href^="#"]').on('click', function (e) {
           e.preventDefault();
@@ -2356,6 +2426,9 @@
         $("#connection-status").html(`فشل الاتصال بالسيرفر: <strong>${serverName}</strong>`);
         return false;
       }
+    </script>
+    <script>
+        
     </script>
 </body>
 </html>
