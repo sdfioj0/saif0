@@ -2091,27 +2091,38 @@
     }
   </script>
 </body>
-<div id="server-container" style="padding:10px; border:1px solid #ccc; min-height:100px;">
-    <!-- هنا رح ينحط السيرفرات -->
+<div style="text-align:center; margin:10px;">
+  <button id="btnTimMap">Tim Map</button>
+  <button id="btnWormWorld">Worm World</button>
 </div>
 
-<script>
-document.addEventListener("keydown", function(event) {
-    if (event.key.toLowerCase() === "q") {
-        // إفراغ القديم (مو ضروري لأن innerHTML = data يكفي، بس للوضوح)
-        document.getElementById("server-container").innerHTML = "جارِ التحميل...";
+<div id="servers-container" style="margin-top:15px;">
+  <!-- هنا رح ينعرض محتوى الملفات -->
+</div>
 
-        fetch("tim_map.html")
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById("server-container").innerHTML = data;
-            })
-            .catch(err => {
-                document.getElementById("server-container").innerHTML = "خطأ بالتحميل 😢";
-                console.error("خطأ بالتحميل:", err);
-            });
-    }
-});
+<div id="extra-button" style="text-align:center; margin-top:10px;"></div>
+
+<script>
+  function loadServers(file, label) {
+    fetch(file)
+      .then(res => res.text())
+      .then(data => {
+        document.getElementById("servers-container").innerHTML = data;
+
+        // إضافة زر إضافي أسفل السيرفرات
+        document.getElementById("extra-button").innerHTML =
+          `<button onclick="alert('${label} servers loaded')">${label} زر إضافي</button>`;
+      })
+      .catch(err => console.error("خطأ بتحميل الملف:", err));
+  }
+
+  document.getElementById("btnTimMap").addEventListener("click", function () {
+    loadServers("tim_map.html", "Tim Map");
+  });
+
+  document.getElementById("btnWormWorld").addEventListener("click", function () {
+    loadServers("wormworld.html", "Worm World");
+  });
 </script>
 
 </html>
