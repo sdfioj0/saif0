@@ -2096,33 +2096,5 @@
   <button id="btnWormWorld">Worm World</button>
 </div>
 
-<div id="servers-container" style="margin-top:15px;">
-  <!-- هنا رح ينعرض محتوى الملفات -->
-</div>
-
-<div id="extra-button" style="text-align:center; margin-top:10px;"></div>
-
-<script>
-  function loadServers(file, label) {
-    fetch(file)
-      .then(res => res.text())
-      .then(data => {
-        document.getElementById("servers-container").innerHTML = data;
-
-        // إضافة زر إضافي أسفل السيرفرات
-        document.getElementById("extra-button").innerHTML =
-          `<button onclick="alert('${label} servers loaded')">${label} زر إضافي</button>`;
-      })
-      .catch(err => console.error("خطأ بتحميل الملف:", err));
-  }
-
-  document.getElementById("btnTimMap").addEventListener("click", function () {
-    loadServers("tim_map.html", "Tim Map");
-  });
-
-  document.getElementById("btnWormWorld").addEventListener("click", function () {
-    loadServers("wormworld.html", "Worm World");
-  });
-</script>
 
 </html>
