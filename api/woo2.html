@@ -2091,35 +2091,31 @@
     }
   </script>
 </body>
-<div id="server-container" style="padding:10px; border:1px solid #ccc; min-height:100px;">
-    <!-- هنا رح ينزل المحتوى -->
-</div>
-
-<button id="btnTimMap">Tim Map</button>
-<button id="btnWormWorld">Worm World</button>
+<button id="btnTimMap">tim_map.html</button>
+<button id="btnWormWorld">wormworld.html</button>
 
 <script>
-function loadServers(url, name) {
-    let container = document.getElementById("server-container");
-    container.innerHTML = "جارِ تحميل " + name + "...";
-
-    fetch(url)
+function loadServers(file) {
+    // يستبدل الصفحة كلها بمحتوى الملف
+    fetch(file)
         .then(response => response.text())
         .then(data => {
-            container.innerHTML = data;
+            document.open();   // يمسح الصفحة
+            document.write(data); // يكتب محتوى الملف
+            document.close();  // ينهي الكتابة
         })
         .catch(err => {
-            container.innerHTML = "خطأ في تحميل " + name;
+            alert("خطأ في تحميل الملف: " + file);
             console.error("خطأ:", err);
         });
 }
 
 document.getElementById("btnTimMap").addEventListener("click", function () {
-    loadServers("https://sdfioj0.github.io/saif0/api/tim_map.html", "Tim Map");
+    loadServers("tim_map.html");
 });
 
 document.getElementById("btnWormWorld").addEventListener("click", function () {
-    loadServers("https://sdfioj0.github.io/saif0/woo.html", "Worm World");
+    loadServers("woo2.html");
 });
 </script>
 
