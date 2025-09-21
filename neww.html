@@ -163,28 +163,19 @@
       padding: 5px;
     }
     
-    .title-worm-world-connect {
-      text-align: center;
-      padding: 10px;
-      font-size: 18px;
-      font-weight: bold;
-      margin-bottom: 15px;
-    }
+
   </style>
 </head>
 <body>
   <!-- زر التبديل بين النسختين -->
   <div class="version-switcher">
-    <button id="version-1-btn" class="version-btn active">النسخة الأولى</button>
-    <button id="version-2-btn" class="version-btn">النسخة الثانية</button>
+    <button id="version-1-btn" class="version-btn active">اداة قديمة</button>
+    <button id="version-2-btn" class="version-btn">tim map</button>
   </div>
 
-  <!-- النسخة الأولى من المحتوى -->
+  <!-- اداة قديمة من المحتوى -->
   <div id="content-version-1" class="content-version active">
-    <div class="title-worm-world-connect">
-      <img src="https://i.imgur.com/Udme91r.png" width="20" alt="" />
-      SAIF WORLD - النسخة الأولى
-    </div>
+
     
     <div style="height: 285px; overflow: auto; border: 1px solid; margin: 6px auto" id="wwc_tabs_1">
       <div class="angry-grid f32">
@@ -714,12 +705,9 @@
     </div>
   </div>
 
-  <!-- النسخة الثانية من المحتوى -->
+  <!-- tim map من المحتوى -->
   <div id="content-version-2" class="content-version">
-    <div class="title-worm-world-connect">
-      <img src="https://i.imgur.com/Udme91r.png" width="20" alt="" />
-      SAIF WORLD - النسخة الثانية
-    </div>
+
     
     <div style="height: 285px; overflow: auto; border: 1px solid; margin: 6px auto" id="wwc_tabs_2">
       <div class="angry-grid f32">
@@ -760,7 +748,7 @@
         <!-- محتوى البرازيل -->
         <div class="server-item">
           <div class="dropdown-item selecionar-sala-v2" style="cursor: pointer; line-height: 25px" data-con="wss://fra-c.wormate.io:32053/wormy" data-room="1br_v2" data-type="false">
-            <strong>01 &nbsp;WW - النسخة الثانية</strong>
+            <strong>01 &nbsp;WW - tim map</strong>
           </div>
           <a href="https://wormworld.io" target="_blank">
             <img src="https://i.imgur.com/Udme91r.png" style="width: 25px; vertical-align: middle">
@@ -769,7 +757,7 @@
         
         <div class="server-item">
           <div class="dropdown-item selecionar-sala-v2" style="cursor: pointer; line-height: 25px" data-con="wss://fra-c.wormate.io:32285/wormy" data-room="2br_v2" data-type="false">
-            <strong>02 &nbsp;WW - النسخة الثانية</strong>
+            <strong>02 &nbsp;WW - tim map</strong>
           </div>
           <a href="https://wormworld.io" target="_blank">
             <img src="https://i.imgur.com/Udme91r.png" style="width: 25px; vertical-align: middle">
@@ -783,7 +771,7 @@
         <!-- محتوى الولايات المتحدة -->
         <div class="server-item">
           <div class="dropdown-item selecionar-sala-v2" style="cursor: pointer; line-height: 25px" data-con="wss://fra-c.wormate.io:32262/wormy" data-room="1us_v2" data-type="false">
-            <strong>01 &nbsp;[AG] AguzGamer - النسخة الثانية</strong>
+            <strong>01 &nbsp;[AG] AguzGamer - tim map</strong>
           </div>
           <a href="https://wormworld.io/team/aguz-gamer/" target="_blank">
             <img src="https://asserts.wormworld.io/rooms/sala_45.png" style="width: 25px; vertical-align: middle">
@@ -1285,11 +1273,11 @@
 
   <script>
     $(document).ready(function() {
-      // تهيئة النسخة الأولى
+      // تهيئة اداة قديمة
       $("#linktab_4_1").addClass("active");
       $("#tabs4_1").addClass("active").show();
       
-      // تهيئة النسخة الثانية
+      // تهيئة tim map
       $("#linktab_4_2").addClass("active");
       $("#tabs4_2").addClass("active").show();
       
@@ -1352,36 +1340,8 @@ $("#version-2-btn").on("click", function() {
     });
     
     // دالة الاتصال بالسيرفر
-    function connectToServer(serverUrl, roomId, serverName) {
-      console.log(`محاولة الاتصال بالسيرفر: ${serverUrl} (${roomId})`);
-      
-      // محاولة الاتصال باستخدام وظيفة اللعبة
-      if (window.parent && window.parent._anApp) {
-        try {
-          if (window.parent._anApp.Si && typeof window.parent._anApp.Si.Se === 'function') {
-            window.parent._anApp.Si.Se();
-          }
-          
-          if (typeof window.parent._anApp.bo === 'function') {
-            window.parent._anApp.bo(serverUrl);
-            return true;
-          }
-        } catch (e) {
-          console.error("خطأ في الاتصال بالسيرفر:", e);
-        }
-      }
-      
-      // محاولة بديلة للاتصال
-      try {
-        let httpUrl = serverUrl.replace('wss://', 'https://').replace('ws://', 'http://');
-        httpUrl = httpUrl.split('/wormy')[0] + '?room=' + roomId;
-        window.open(httpUrl, '_blank');
-        return true;
-      } catch (e) {
-        console.error("فشل في فتح عنوان السيرفر:", e);
-        return false;
-      }
-    }
+
   </script>
+  
 </body>
 </html>
