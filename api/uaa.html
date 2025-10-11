@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tìm map wormate</title>
+    <title>Tìm000</title>
     <style>
         /* أنماط الأعلام */
         .flags .flag {
@@ -169,6 +169,164 @@
         .center {
             text-align: center;
         }
+            body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #1a1a1a;
+      color: white;
+    }
+    
+    .version-switcher {
+      position: fixed;
+      top: 58px;
+      left: 32px;
+      z-index: 1000;
+      background: rgba(214, 214, 214, 0);
+      padding: 10px;
+      border-radius: 5px;
+    }
+    
+    .version-btn {
+      background-color: #377899d2;
+      color: rgb(0, 0, 0);
+      border: none;
+      padding: 8px 15px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+      margin: 0 5px;
+    }
+    
+    .version-btn.active {
+      background-color: #fafffb;
+    }
+    
+    .content-version {
+      display: none;
+      padding: -7px;
+    }
+    
+    .content-version.active {
+      display: block;
+    }
+    
+    .angry-grid {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      gap: 1px;
+      justify-content: center;
+      align-items: center;
+      justify-items: center;
+      align-content: center;
+      border-bottom: 1px solid #fff;
+    }
+    
+    .angry-grid a.active {
+      border: 2px solid red;
+    }
+    
+    [id*="wwc_room_item_"]:hover {
+      background-color: yellow;
+      color: black;
+    }
+    
+    [id*="wwc_room_item_"] a:hover {
+      color: black;
+    }
+    
+    .tab-pane {
+      display: none;
+    }
+    
+    .tab-pane.active {
+      display: block;
+    }
+    
+    .sprite {
+      background-image: url(https://asserts.wormworld.io/images/flags_region.png);
+      background-repeat: no-repeat;
+      background-size: 135px 120px;
+      display: block;
+      margin: 6px 0;
+    }
+    
+    .sprite-ae-flag {
+      width: 40px;
+      height: 25px;
+      background-position: -3px -4px;
+    }
+    
+    .sprite-au-flag {
+      width: 40px;
+      height: 25px;
+      background-position: -48px -3px;
+    }
+    
+    .sprite-br-flag {
+      width: 40px;
+      height: 25px;
+      background-position: -2px -33px;
+    }
+    
+    .sprite-ca-flag {
+      width: 40px;
+      height: 25px;
+      background-position: -48px -33px;
+    }
+    
+    .sprite-fr-flag {
+      width: 40px;
+      height: 25px;
+      background-position: -2px -62px;
+    }
+    
+    .sprite-de-flag {
+      width: 40px;
+      height: 25px;
+      background-position: -48px -62px;
+    }
+    
+    .sprite-jp-flag {
+      width: 40px;
+      height: 25px;
+      background-position: -48px -92px;
+    }
+    
+    .sprite-mx-flag {
+      width: 40px;
+      height: 25px;
+      background-position: -92px -3px;
+    }
+    
+    .sprite-sg-flag {
+      width: 40px;
+      height: 25px;
+      background-position: -92px -33px;
+    }
+    
+    .sprite-uk-flag {
+      width: 40px;
+      height: 25px;
+      background-position: -92px -92px;
+    }
+    
+    .sprite-us-flag {
+      width: 40px;
+      height: 25px;
+      background-position: -92px -92px;
+    }
+    
+    .server-item {
+      display: grid;
+      grid-template-columns: 1fr 30px;
+      line-height: 28px;
+      margin: 5px 0;
+      padding: 5px;
+    }
+    
+
     </style>
 </head>
 <body>
@@ -330,89 +488,143 @@
     </form>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            // معالجة النقر على الأعلام
-            $("#flag_br").click(function(){
-                $("#flag_br").addClass("area_show");
-                $("#flag_us,#flag_ca,#flag_mx,#flag_de,#flag_fr,#flag_sg,#flag_jp,#flag_au,#flag_gb").removeClass("area_show");
-                $("#area_br").addClass("div_show").removeClass("div_hidden");
-                $("#area_us,#area_ca,#area_mx,#area_de,#area_fr,#area_sg,#area_jp,#area_au,#area_gb").addClass("div_hidden").removeClass("div_show");
-            });
+  <script>
+    $(document).ready(function() {
+      // تهيئة اداة قديمة
+      $("#linktab_4_1").addClass("active");
+      $("#tabs4_1").addClass("active").show();
+      
+      // تهيئة tim map
+      $("#linktab_4_2").addClass("active");
+      $("#tabs4_2").addClass("active").show();
+      
+      // أحداث النقر على التبويبات للنسخة الأولى
+      $("#content-version-1 .angry-grid a").on("click", function(e) {
+        e.preventDefault();
+        let target = $(this).attr("href");
+        $("#content-version-1 .angry-grid a").removeClass("active");
+        $(this).addClass("active");
+        $("#content-version-1 .tab-pane").removeClass("active").hide();
+        $(target).addClass("active").fadeIn();
+      });
+      
+      // أحداث النقر على التبويبات للنسخة الثانية
+      $("#content-version-2 .angry-grid a").on("click", function(e) {
+        e.preventDefault();
+        let target = $(this).attr("href");
+        $("#content-version-2 .angry-grid a").removeClass("active");
+        $(this).addClass("active");
+        $("#content-version-2 .tab-pane").removeClass("active").hide();
+        $(target).addClass("active").fadeIn();
+      });
+      
+      // التبديل بين النسختين
+// التبديل بين النسختين
+$("#version-1-btn").on("click", function() {
+  $(".content-version").removeClass("active");
+  $("#content-version-1").addClass("active");
+  $(".version-btn").removeClass("active");
+  $(this).addClass("active");
+});
 
-            $("#flag_us").click(function(){
-                $("#flag_us").addClass("area_show");
-                $("#flag_br,#flag_ca,#flag_mx,#flag_de,#flag_fr,#flag_sg,#flag_jp,#flag_au,#flag_gb").removeClass("area_show");
-                $("#area_us").addClass("div_show").removeClass("div_hidden");
-                $("#area_br,#area_ca,#area_mx,#area_de,#area_fr,#area_sg,#area_jp,#area_au,#area_gb").addClass("div_hidden").removeClass("div_show");
-            });
+$("#version-2-btn").on("click", function() {
+  $(".content-version").removeClass("active");
+  $("#content-version-2").addClass("active");
+  $(".version-btn").removeClass("active");
+  $(this).addClass("active");
+});
 
-            $("#flag_ca").click(function(){
-                $("#flag_ca").addClass("area_show");
-                $("#flag_us,#flag_br,#flag_mx,#flag_de,#flag_fr,#flag_sg,#flag_jp,#flag_au,#flag_gb").removeClass("area_show");
-                $("#area_ca").addClass("div_show").removeClass("div_hidden");
-                $("#area_us,#area_br,#area_mx,#area_de,#area_fr,#area_sg,#area_jp,#area_au,#area_gb").addClass("div_hidden").removeClass("div_show");
-            });
+      
+     
+      
+      // تأثيرات التمرير
+      $(".selecionar-sala-v2").hover(
+        function() {
+          $(this).closest('.server-item').css("background-color", "rgba(255, 255, 0, 0.2)");
+        },
+        function() {
+          $(this).closest('.server-item').css("background-color", "");
+        }
+      );
+    });
+    
+    // دالة الاتصال بالسيرفر
 
-            $("#flag_mx").click(function(){
-                $("#flag_mx").addClass("area_show");
-                $("#flag_us,#flag_ca,#flag_br,#flag_de,#flag_fr,#flag_sg,#flag_jp,#flag_au,#flag_gb").removeClass("area_show");
-                $("#area_mx").addClass("div_show").removeClass("div_hidden");
-                $("#area_us,#area_ca,#area_br,#area_de,#area_fr,#area_sg,#area_jp,#area_au,#area_gb").addClass("div_hidden").removeClass("div_show");
-            });
+  </script>
+  
+ <script>
+    
+      $(document).ready(function() {
+        // Hide all tab panes initially except the first one
+        $('#wwc_tabs .tab-pane').hide();
 
-            $("#flag_de").click(function(){
-                $("#flag_de").addClass("area_show");
-                $("#flag_us,#flag_ca,#flag_mx,#flag_br,#flag_fr,#flag_sg,#flag_jp,#flag_au,#flag_gb").removeClass("area_show");
-                $("#area_de").addClass("div_show").removeClass("div_hidden");
-                $("#area_us,#area_ca,#area_mx,#area_br,#area_fr,#area_sg,#area_jp,#area_au,#area_gb").addClass("div_hidden").removeClass("div_show");
-            });
+        
+        if (location.hash) {
+          $('a[href="' + location.hash + '"]').addClass('active');
+          $(location.hash).show();
+        } else {
+          // Default to the first tab if no hash is present
+          $('#linktab_4').addClass('active');
+          $('#tabs4').show();
+        }
 
-            $("#flag_fr").click(function(){
-                $("#flag_fr").addClass("area_show");
-                $("#flag_us,#flag_ca,#flag_mx,#flag_de,#flag_br,#flag_sg,#flag_jp,#flag_au,#flag_gb").removeClass("area_show");
-                $("#area_fr").addClass("div_show").removeClass("div_hidden");
-                $("#area_us,#area_ca,#area_mx,#area_de,#area_br,#area_sg,#area_jp,#area_au,#area_gb").addClass("div_hidden").removeClass("div_show");
-            });
+        
+        $('#wwc_tabs').on('click', 'a', function (e) {
+          e.preventDefault();
+          
+          $('#wwc_tabs .tab-pane').hide();
+          
+          var targetId = $(this).attr('href');
+          $(targetId).show();
+          
+          $('#wwc_tabs a').removeClass('active');
+          $(this).addClass('active');
 
-            $("#flag_sg").click(function(){
-                $("#flag_sg").addClass("area_show");
-                $("#flag_us,#flag_ca,#flag_mx,#flag_de,#flag_fr,#flag_br,#flag_jp,#flag_au,#flag_gb").removeClass("area_show");
-                $("#area_sg").addClass("div_show").removeClass("div_hidden");
-                $("#area_us,#area_ca,#area_mx,#area_de,#area_fr,#area_br,#area_jp,#area_au,#area_gb").addClass("div_hidden").removeClass("div_show");
-            });
-
-            $("#flag_jp").click(function(){
-                $("#flag_jp").addClass("area_show");
-                $("#flag_us,#flag_ca,#flag_mx,#flag_de,#flag_fr,#flag_sg,#flag_br,#flag_au,#flag_gb").removeClass("area_show");
-                $("#area_jp").addClass("div_show").removeClass("div_hidden");
-                $("#area_us,#area_ca,#area_mx,#area_de,#area_fr,#area_sg,#area_br,#area_au,#area_gb").addClass("div_hidden").removeClass("div_show");
-            });
-
-            $("#flag_au").click(function(){
-                $("#flag_au").addClass("area_show");
-                $("#flag_us,#flag_ca,#flag_mx,#flag_de,#flag_fr,#flag_sg,#flag_jp,#flag_br,#flag_gb").removeClass("area_show");
-                $("#area_au").addClass("div_show").removeClass("div_hidden");
-                $("#area_us,#area_ca,#area_mx,#area_de,#area_fr,#area_sg,#area_jp,#area_br,#area_gb").addClass("div_hidden").removeClass("div_show");
-            });
-
-            $("#flag_gb").click(function(){
-                $("#flag_gb").addClass("area_show");
-                $("#flag_us,#flag_ca,#flag_mx,#flag_de,#flag_fr,#flag_sg,#flag_jp,#flag_au,#flag_br").removeClass("area_show");
-                $("#area_gb").addClass("div_show").removeClass("div_hidden");
-                $("#area_us,#area_ca,#area_mx,#area_de,#area_fr,#area_sg,#area_jp,#area_au,#area_br").addClass("div_hidden").removeClass("div_show");
-            });
-
-            // معالجة النقر على عناصر الخادم
-            $(".select_item").click(function(d){
-                d.preventDefault();
-                var p = $(this).data("port");
-                $("#port_id").val(p);
-                var n = $(this).data("name");
-                $("#port_name").val(n);
-                document.getElementById("mm-action-play").click();
-            });
+          
+          window.location.hash = targetId;
         });
-    </script>
+      });
+
+      
+function connectToServer(serverUrl, serverName, roomId) {
+  try {
+    // Check for the required functions in the parent window
+    if (window.parent._anApp && typeof window.parent._anApp.bo === 'function') {
+      console.log("Connecting to server:", serverName, "at URL:", serverUrl, "with room:", roomId);
+
+      $("#connection-status").html(`جاري الاتصال بالسيرفر: <strong>${serverName}</strong>`);
+
+      // إيقاف الصوت (إذا كان متاحًا)
+      if (window.parent._anApp.Si && typeof window.parent._anApp.Si.Se === 'function') {
+        window.parent._anApp.Si.Se();
+      }
+
+      // الاتصال بالسيرفر
+      window.parent._anApp.bo(serverUrl);
+      $("#connection-status").html(`تم الاتصال بنجاح: <strong>${serverName}</strong>`);
+      return true;
+    }
+  } catch (e) {
+    console.error("خطأ في الاتصال بالسيرفر:", e);
+  }
+
+  // المحاولة البديلة
+  try {
+    let httpUrl = serverUrl.replace('wss://', 'https://').replace('ws://', 'http://');
+    httpUrl = httpUrl.split('/wormy')[0] + '?room=' + roomId;
+
+    window.open(httpUrl, '_blank');
+    $("#connection-status").html(`تم فتح السيرفر في نافذة جديدة: <strong>${serverName}</strong>`);
+    return true;
+  } catch (e) {
+    console.error("فشل في فتح عنوان السيرفر:", e);
+    $("#connection-status").html(`فشل الاتصال بالسيرفر: <strong>${serverName}</strong>`);
+    return false;
+  }
+}
+
+      
+    
+</script>
 </body>
 </html>
