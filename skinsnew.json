@@ -1,0 +1,31 @@
+{
+  "revision": 202410,
+  "description_ar": "",
+  "allProposedSkins": [
+    5001,
+    5002,
+    5003,
+    5004,
+    5005
+  ],
+  "selectedSkin": {
+    "id": 5003,
+    "name_ar": "درع التنين الناري",
+    "name_en": "Blazing Dragon Armor",
+    "rarity": "Epic",
+    "item_code": "CUSTOM_DRAGON_ARMOR_03",
+    "assets": {
+      "texture_sheet": "https://i.imgur.com/1A0HI4d.png",
+      "icon_small": "https://i.imgur.com/1A0HI4d.png",
+      "preview_full": "https://example.com/random_images/dragon_preview_HD.webp"
+    },
+    "effects": [
+      "ParticleEffect_FlameAura",
+      "SoundEffect_Roar"
+    ]
+  },
+  "countryDict_sample": {
+    "EG": "مصر",
+    "AE": "الإمارات العربية المتحدة"
+  }
+}
