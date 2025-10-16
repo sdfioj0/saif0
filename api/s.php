@@ -16733,7 +16733,7 @@
         },
         "abufaris_02": {
             "custom": true,
-            "relativePath": "https:\/\/haylamday.com\/images\/texture\/skin_abufaris\/skin_abufaris_02.png"
+            "relativePath": "https://i.imgur.com/vcT6RzL.png"
         },
         "abufaris_03": {
             "custom": true,
