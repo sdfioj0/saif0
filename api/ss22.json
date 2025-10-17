@@ -6439,7 +6439,7 @@
             "nonbuyable": false,
             "price": 0,
             "priceBefore": 0,
-            "prime": "a_white",
+            "prime": "c__yllw",
             "base": [
                 "skin_wfc_03_8",
                 "skin_wfc_03_7",
@@ -6452,15 +6452,15 @@
                 "skin_wfc_03_0"
             ],
             "glow": [
-                "a_white",
-                "a_white",
-                "a_white",
-                "a_white",
+                "a_blau",
                 "a_death",
-                "a_white",
-                "a_white",
-                "a_white",
-                "a_white"
+                "a_death",
+                "a_death",
+                "a_death",
+                "a__yllw",
+                "a_ivory",
+                "a_ivory",
+                "a__yllw"
             ]
         },
         {
@@ -16141,7 +16141,7 @@
         },
         "skin_wfc_03": {
             "custom": true,
-            "relativePath": "https://i.imgur.com/oA1IFKc.png"
+            "relativePath": "https:\/\/i.imgur.com\/oA1IFKc.png"
         },
         "skin_wfc_04": {
             "custom": true,
