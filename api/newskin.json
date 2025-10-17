@@ -1,0 +1,793 @@
+{
+    "revision": 90000,
+    "visibleSkin": [
+        1000,
+        201,
+        702
+    ],
+    "skinGroupArrayDict": [
+        {
+            "isCustom": true,
+            "id": "WFC - Friends",
+            "img": "Malboro",
+            "name": {
+                "en": "WFC - Friends"
+            },
+            "list": [
+                "1402"
+            ]
+        },
+        {
+            "isCustom": true,
+            "id": "HPBD",
+            "img": "hpd.png",
+            "name": {
+                "en": "HPBD"
+            },
+            "list": [
+                "1387",
+                "1388",
+                "1389",
+                "1390",
+                "1391",
+                "1392",
+                "1393",
+                "1394",
+                "1395",
+                "1396",
+                "1397",
+                "1398",
+                "1399"
+            ]
+        },
+        {
+            "isCustom": true,
+            "id": "Nona Milano",
+            "img": "Nona-Milano.png",
+            "name": {
+                "en": "Nona Milano"
+            },
+            "list": [
+                "1357",
+                "1358",
+                "1366",
+                "1369",
+                "1371",
+                "1384"
+            ]
+        },
+        {
+            "isCustom": true,
+            "id": "Nona Milano new",
+            "img": "Nona-Milano-new.png",
+            "name": {
+                "en": "Nona Milano"
+            },
+            "list": [
+                "1014",
+                "1270",
+                "1187",
+                "1346",
+                "1140",
+                "1331",
+                "1459",
+                "1024",
+                "1325",
+                "1234",
+                "1338",
+                "1350",
+                "1352"
+            ]
+        },
+        {
+            "isCustom": true,
+            "id": "Chery",
+            "img": "chery.png",
+            "name": {
+                "en": "Chery"
+            },
+            "list": [
+                "1332",
+                "1333",
+                "1334"
+            ]
+        },
+        {
+            "isCustom": true,
+            "id": "daragon",
+            "img": "daragon.png",
+            "name": {
+                "en": "daragon"
+            },
+            "list": [
+                "1087",
+                "1471",
+                "1472",
+                "1454",
+                "1453",
+                "1452",
+                "1451",
+                "1450",
+                "1447",
+                "1443",
+                "1438",
+                "1432",
+                "1431",
+                "1430",
+                "1429",
+                "1424",
+                "1355",
+                "1347",
+                "1345",
+                "1341",
+                "1335",
+                "1445",
+                "1444",
+                "1442",
+                "1441",
+                "1440",
+                "1439",
+                "1437"
+            ]
+        },
+        {
+            "isCustom": true,
+            "id": "Vuong hiep skins 1",
+            "img": "vth24.png",
+            "name": {
+                "en": "Vuong hiep skins 1"
+            },
+            "list": [
+                "1458",
+                "1457",
+                "1455",
+                "1449",
+                "1446",
+                "1436",
+                "1435",
+                "1326",
+                "1323",
+                "1322",
+                "1434",
+                "1319",
+                "1320",
+                "1327",
+                "1328",
+                "1329",
+                "1330"
+            ]
+        },
+        {
+            "isCustom": true,
+            "id": "V\u01af\u01a0NG HI\u1ec6P SKINS",
+            "img": "vth.png",
+            "name": {
+                "en": "V\u01af\u01a0NG HI\u1ec6P SKINS"
+            },
+            "list": [
+                "1301",
+                "1302",
+                "1303",
+                "1304",
+                "1305",
+                "1306",
+                "1307",
+                "1308",
+                "1309",
+                "1310",
+                "1311",
+                "1312",
+                "1313",
+                "1314",
+                "1315",
+                "1317",
+                "1318"
+            ]
+        },
+        {
+            "isCustom": true,
+            "id": "VNXX GAMING",
+            "img": "vnxx.png",
+            "name": {
+                "en": "VNXX GAMING"
+            },
+            "list": [
+                "1279",
+                "1280",
+                "1281",
+                "1282",
+                "1283",
+                "1284",
+                "1285",
+                "1286",
+                "1289",
+                "1290",
+                "1291",
+                "1292",
+                "1293",
+                "1294",
+                "1295",
+                "1296",
+                "1297",
+                "1298",
+                "1299",
+                "1300"
+            ]
+        },
+        {
+            "isCustom": true,
+            "id": "Vi\u1ec7t Nam",
+            "img": "viet_nam.png",
+            "name": {
+                "en": "Vi\u1ec7t Nam"
+            },
+            "list": [
+                "1425",
+                "1500",
+                "1466",
+                "1354",
+                "1349",
+                "1275",
+                "1276",
+                "1277",
+                "1278",
+                "1279",
+                "1280"
+            ]
+        },
+        {
+            "isCustom": true,
+            "id": "Kiss The Rain",
+            "img": "ktr.png",
+            "name": {
+                "en": "Kiss The Rain"
+            },
+            "list": [
+                "1262",
+                "1263",
+                "1264",
+                "1265",
+                "1266",
+                "1267",
+                "1268",
+                "1269",
+                "1271",
+                "1272",
+                "1273",
+                "1274"
+            ]
+        },
+        {
+            "isCustom": true,
+            "id": "summer",
+            "img": "summer.png",
+            "name": {
+                "en": "SUMMER"
+            },
+            "list": [
+                "1253",
+                "1254",
+                "1255",
+                "1256",
+                "1257",
+                "1258",
+                "1259",
+                "1260",
+                "1261"
+            ]
+        },
+        {
+            "isCustom": true,
+            "id": "Linspecturdz",
+            "img": "Linspecturdz.png",
+            "name": {
+                "en": "EFFENDI"
+            },
+            "list": [
+                "1248",
+                "1249",
+                "1250",
+                "1251",
+                "1252"
+            ]
+        },
+        {
+            "isCustom": true,
+            "id": "NSND",
+            "img": "nsnd.png",
+            "name": {
+                "en": "NSND"
+            },
+            "list": [
+                "1240",
+                "1241",
+                "1242",
+                "1243",
+                "1244",
+                "1245",
+                "1246",
+                "1247"
+            ]
+        },
+        {
+            "isCustom": true,
+            "id": "TH\u01af K\u00dd BIGO",
+            "img": "TH\u01af-K\u00dd-SKINS.png",
+            "name": {
+                "en": "TH\u01af K\u00dd BIGO"
+            },
+            "list": [
+                "1422",
+                "1423"
+            ]
+        },
+        {
+            "isCustom": true,
+            "id": "EFFENDI",
+            "img": "effendi.png",
+            "name": {
+                "en": "EFFENDI"
+            },
+            "list": [
+                "1222",
+                "1225",
+                "1228",
+                "1230",
+                "1231",
+                "1233",
+                "1235"
+            ]
+        },
+        {
+            "isCustom": true,
+            "id": "25 YPG",
+            "img": "25YPG.png",
+            "name": {
+                "en": "25 YPG"
+            },
+            "list": [
+                "1199",
+                "1200",
+                "1201",
+                "1202"
+            ]
+        },
+        {
+            "isCustom": true,
+            "id": "Kurdish Flag",
+            "img": "kurdish-flag.png",
+            "name": {
+                "en": "Kurdish Flag"
+            },
+            "list": [
+                "1179",
+                "1181",
+                "1183",
+                "1184",
+                "1185",
+                "1186",
+                "1195",
+                "1197",
+                "1198"
+            ]
+        },
+        {
+            "isCustom": true,
+            "id": "Arab Flag",
+            "img": "arab-flag.png",
+            "name": {
+                "en": "Arab Flag"
+            },
+            "list": [
+                "1009",
+                "1006",
+                "1001",
+                "1000",
+                "1141",
+                "1142",
+                "1146",
+                "1159",
+                "1160",
+                "1161",
+                "1162",
+                "1163",
+                "1165",
+                "1166",
+                "1167",
+                "1169",
+                "1170",
+                "1172",
+                "1174"
+            ]
+        },
+        {
+            "isCustom": true,
+            "id": "Other Flags",
+            "img": "other-flags.png",
+            "name": {
+                "en": "Flags Flags"
+            },
+            "list": [
+                "1123",
+                "1127",
+                "1128",
+                "1129",
+                "1131",
+                "1132",
+                "1134",
+                "1135",
+                "1136",
+                "1137",
+                "1138"
+            ]
+        },
+        {
+            "isCustom": true,
+            "id": "KURDISTAN 75",
+            "img": "kurdistan75.png",
+            "name": {
+                "en": "KURDISTAN 75"
+            },
+            "list": [
+                "1095",
+                "1096",
+                "1097",
+                "1098",
+                "1099",
+                "1100",
+                "1101",
+                "1102",
+                "1103",
+                "1104",
+                "1105",
+                "1106",
+                "1107",
+                "1108",
+                "1109",
+                "1110",
+                "1111",
+                "1112",
+                "1113",
+                "1114",
+                "1115",
+                "1116",
+                "1117",
+                "1118",
+                "1119",
+                "1120",
+                "1121",
+                "1122"
+            ]
+        },
+        {
+            "isCustom": true,
+            "id": "EZI EZIDXAN",
+            "img": "EZI.png",
+            "name": {
+                "en": "EZI EZIDXAN"
+            },
+            "list": [
+                "1081",
+                "1082",
+                "1083",
+                "1084",
+                "1085",
+                "1086",
+                "1088",
+                "1089",
+                "1090",
+                "1091",
+                "1092",
+                "1093",
+                "1094"
+            ]
+        },
+        {
+            "isCustom": true,
+            "id": "101 Gaming",
+            "img": "101gaming.png",
+            "name": {
+                "en": "101 Gaming"
+            },
+            "list": [
+                "1066",
+                "1067",
+                "1068",
+                "1069",
+                "1070",
+                "1071",
+                "1072",
+                "1073",
+                "1074",
+                "1075",
+                "1076",
+                "1077",
+                "1078",
+                "1079",
+                "1080"
+            ]
+        },
+        {
+            "isCustom": true,
+            "id": "Ziko Gaming",
+            "img": "ZIKO.png",
+            "name": {
+                "en": "Ziko Gaming"
+            },
+            "list": [
+                "1042",
+                "1043",
+                "1044",
+                "1045",
+                "1046",
+                "1047",
+                "1048",
+                "1049",
+                "1050",
+                "1052",
+                "1053",
+                "1054",
+                "1055",
+                "1056",
+                "1057",
+                "1058",
+                "1059",
+                "1060",
+                "1061",
+                "1062",
+                "1063"
+            ]
+        },
+        {
+            "isCustom": true,
+            "id": "Abu Faris",
+            "img": "abufaris.png",
+            "name": {
+                "en": "Abu Faris"
+            },
+            "list": [
+                "1026",
+                "1027",
+                "1028",
+                "1029",
+                "1030",
+                "1031",
+                "1032",
+                "1033",
+                "1034",
+                "1035",
+                "1036",
+                "1037",
+                "1038",
+                "1039",
+                "1040",
+                "1041"
+            ]
+        },
+        {
+            "isCustom": true,
+            "id": "ninawa",
+            "img": "ninawa.png",
+            "name": {
+                "en": "ninawa"
+            },
+            "list": [
+                "1017",
+                "1019",
+                "1020",
+                "1023"
+            ]
+        },
+        {
+            "isCustom": true,
+            "id": "LSB SKINS",
+            "img": "LSB-Skins.png",
+            "name": {
+                "en": "LSB SKINS"
+            },
+            "list": [
+                "1002",
+                "1003",
+                "1004",
+                "1005",
+                "1007",
+                "1008",
+                "1010",
+                "1015",
+                "1016"
+            ]
+        },
+        {
+            "isCustom": true,
+            "id": "Forder",
+            "name": {
+                "en": "Custom"
+            },
+            "list": []
+        },
+        {
+            "isCustom": true,
+            "id": "Saif Group",
+            "img": "saif.png",
+            "name": {
+                "en": "Saif"
+            },
+            "list": [
+                "1000"
+            ]
+        }
+    ],
+    "itemDict": {
+        "1000": {
+            "id": 1000,
+            "createdAt": "2025-08-12 23:47:50",
+            "expiresAt": "2036-07-25 23:47:50",
+            "guest": false,
+            "nonbuyable": false,
+            "price": 0,
+            "priceBefore": 0,
+            "prime": "c__yllw",
+            "base": [
+                "storm_483_8",
+                "storm_483_7",
+                "storm_483_6",
+                "storm_483_5",
+                "storm_483_4",
+                "storm_483_3",
+                "storm_483_2",
+                "storm_483_1",
+                "storm_483_0"
+            ],
+            "glow": [
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white"
+            ]
+        },
+        "201": {
+            "id": 201,
+            "base": [
+                {
+                    "region": "mouth_01"
+                }
+            ],
+            "guest": false,
+            "price": 0,
+            "priceBefore": 0,
+            "nonbuyable": false,
+            "prime": "c_white"
+        },
+        "702": {
+            "id": 702,
+            "base": [
+                {
+                    "region": "hat_02"
+                }
+            ],
+            "guest": false,
+            "price": 0,
+            "priceBefore": 0,
+            "nonbuyable": false,
+            "prime": "c_white"
+        }
+    },
+    "assetDict": {
+        "storm_483_0": {
+            "texture": "storm_483",
+            "h": 170,
+            "w": 170,
+            "x": 0,
+            "y": 0,
+            "createdAt": "2025-08-12 23:47:50",
+            "expiresAt": "2036-07-25 23:47:50"
+        },
+        "storm_483_1": {
+            "texture": "storm_483",
+            "h": 170,
+            "w": 170,
+            "x": 175,
+            "y": 0,
+            "createdAt": "2025-08-12 23:47:50",
+            "expiresAt": "2036-07-25 23:47:50"
+        },
+        "storm_483_2": {
+            "texture": "storm_483",
+            "h": 170,
+            "w": 170,
+            "x": 350,
+            "y": 0,
+            "createdAt": "2025-08-12 23:47:50",
+            "expiresAt": "2036-07-25 23:47:50"
+        },
+        "storm_483_3": {
+            "texture": "storm_483",
+            "h": 170,
+            "w": 170,
+            "x": 525,
+            "y": 0,
+            "createdAt": "2025-08-12 23:47:50",
+            "expiresAt": "2036-07-25 23:47:50"
+        },
+        "storm_483_4": {
+            "texture": "storm_483",
+            "h": 170,
+            "w": 170,
+            "x": 700,
+            "y": 0,
+            "createdAt": "2025-08-12 23:47:50",
+            "expiresAt": "2036-07-25 23:47:50"
+        },
+        "storm_483_5": {
+            "texture": "storm_483",
+            "h": 170,
+            "w": 170,
+            "x": 875,
+            "y": 0,
+            "createdAt": "2025-08-12 23:47:50",
+            "expiresAt": "2036-07-25 23:47:50"
+        },
+        "storm_483_6": {
+            "texture": "storm_483",
+            "h": 170,
+            "w": 170,
+            "x": 1050,
+            "y": 0,
+            "createdAt": "2025-08-12 23:47:50",
+            "expiresAt": "2036-07-25 23:47:50"
+        },
+        "storm_483_7": {
+            "texture": "storm_483",
+            "h": 170,
+            "w": 170,
+            "x": 1225,
+            "y": 0,
+            "createdAt": "2025-08-12 23:47:50",
+            "expiresAt": "2036-07-25 23:47:50"
+        },
+        "storm_483_8": {
+            "texture": "storm_483",
+            "h": 170,
+            "w": 170,
+            "x": 1400,
+            "y": 0,
+            "createdAt": "2025-08-12 23:47:50",
+            "expiresAt": "2036-07-25 23:47:50"
+        },
+        "mouth_01": {
+            "custom": true,
+            "relativePath": "https://haylamday.com/images/texture/mouth/mouth_01.png"
+        },
+        "mouth_01_region": {
+            "texture": "mouth_01",
+            "x": 0,
+            "y": 0,
+            "w": 400,
+            "h": 250,
+            "px": 1,
+            "py": 64,
+            "pw": 128,
+            "ph": 128
+        },
+        "hat_02": {
+            "custom": true,
+            "relativePath": "https://haylamday.com/images/texture/hat/hat_02.png"
+        },
+        "hat_02_region": {
+            "texture": "hat_02",
+            "x": 0,
+            "y": 0,
+            "w": 400,
+            "h": 250,
+            "px": 1,
+            "py": 64,
+            "pw": 128,
+            "ph": 128
+        }
+    }
+}
