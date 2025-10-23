@@ -41,8 +41,8 @@
         },
         {
             "id": 3,
-            "cliente_NOMBRE": "Åžener Ã–ztÃ¼rk",
-            "cliente_ID": "gg_116832963250039731524",
+            "cliente_NOMBRE": "خالد",
+            "cliente_ID": "gg_108761571434295148124",
             "Client_KeyAccecs": "XTPRIVATESKIN",
             "cliente_DateExpired": "2025-12-20",
             "status": 1,
